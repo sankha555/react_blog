@@ -1,0 +1,10 @@
+.li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+
+.nav-href:hover {
+    color: brown;
+    border-bottom: 1px;
+    border-color: yellow;
+}
