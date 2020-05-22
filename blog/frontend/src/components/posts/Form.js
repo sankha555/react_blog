@@ -21,6 +21,11 @@ export class Form extends Component {
         const { title, author, content } = this.state;
         const post = { title, author, content };
         this.props.addPost(post);
+        this.setState({
+            title: "",
+            author: "",
+            content: ""
+        })
     }
 
     render() {

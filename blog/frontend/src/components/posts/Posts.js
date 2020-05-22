@@ -26,6 +26,7 @@ export class Posts extends Component {
                                 <th>Title</th>
                                 <th>Author</th>
                                 <th>Content</th>
+                                <th></th>
                             </tr>
                         </thead>
                         <tbody>
@@ -36,7 +37,7 @@ export class Posts extends Component {
                                     <td>{post.author}</td>
                                     <td>{post.content}</td>
                                     <td>
-                                        <button onClick={this.props.deletePost.bind(this, post.id)} className="btn btn-danger btn-sm"> {" "} Delete</button>
+                                        <button onClick={this.props.deletePost.bind(this, post.id)} className="btn btn-danger btn-sm">Delete</button>
                                     </td>
                                 </tr>
                             ))}
